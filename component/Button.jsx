@@ -1,8 +1,7 @@
 
 
 
-export default function ({text,extraClass,handleClick}) {
-
+export default function ({ text, extraClass, handleClick }) {
 
     return (
 
@@ -10,10 +9,8 @@ export default function ({text,extraClass,handleClick}) {
             <button
                 className={extraClass}
                 onClick={handleClick}
-
-
             >
-                {text}
+            {text}
             </button>
         </>
     )
